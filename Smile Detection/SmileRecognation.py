@@ -4,7 +4,8 @@ faceXML=cv2.CascadeClassifier("frontalface.xml")
 smileXML=cv2.CascadeClassifier("smile.xml")
 
 capture_camera=cv2.VideoCapture(0)
-address="http://192.168.0.101:8080/video"
+address="http://192.168.0.101:8080/video" #connected with the phone camera
+
 capture_camera.open(address)
 
 while True:
